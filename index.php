@@ -1,5 +1,5 @@
 <div class="container">
-		 <form method="POST" action="getDetails.php">
+		 <form method="POST" action="api/v1/getDetails.php">
 
 					 	<div>
 					 		<label>T24 Web Server IP: </label>

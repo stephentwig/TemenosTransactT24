@@ -1,0 +1,185 @@
+.modal{
+
+top:70px;}
+
+body{
+	font-family: trebuchet MS !important;
+padding-top:70px;
+
+}
+
+
+
+.titledd{
+  background-color: #227093; border-radius: 5px;border:#e8fdff59 0.5px solid ;box-shadow: 5px 5px 5px grey;
+}
+
+.paginationCustom a {
+  color: #009fff;
+  float: left;
+  padding: 8px 16px;
+  background-color:#e8fdff59;
+  border:0.5px solid #009fff;
+ /* border-radius: 2px;*/
+  
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.paginationCustom a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.paginationCustom a:hover:not(.active) {background-color: #ddd;}
+ 
+
+ .blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: red;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+
+     /* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid green;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.small-box {
+    border-radius: .25rem;
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.small-box>.small-box-footer {
+    background: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.small-box h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+
+.small-box h3, .small-box p {
+    z-index: 5;
+}
+
+
+.bg-info, .bg-info>a {
+    color: #fff!important;
+}
+
+
+.small-box>.inner {
+    padding: 10px;
+}
+
+.small-box .icon {
+    color: rgba(0,0,0,.15);
+    z-index: 0;
+}
+
+.small-box .icon>i.fa, .small-box .icon>i.fab, .small-box .icon>i.far, .small-box .icon>i.fas, .small-box .icon>i.glyphicon, .small-box .icon>i.ion {
+    font-size: 70px;
+    top: 20px;
+}
+
+.bg-info {
+    background-color: #17a2b8!important;
+}
+
+.bg-success {
+    background-color: #28a745!important;
+}
+
+.bg-warning {
+    background-color: #ffc107!important;
+}
+
+.bg-danger {
+    background-color: #dc3545!important;
+}

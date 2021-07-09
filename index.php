@@ -11,7 +11,7 @@
 <body>
 	<div class="container">
 		<div class="alert alert-success" role="alert">
-				<h2><b>Homemade Temenos T24 RESTful API</b> 
+				<h2><b>Bare-bones Temenos T24 RESTful API</b> 
 
 				<a href="https://github.com/stephentwig" class="btn btn-success btn-md" style="float: right;border:#e8fdff59 1px solid ; margin-right: 30px; ">
 				<span class="glyphicon glyphicon-plus"></span> Mein Geschenk für dich </a>
@@ -74,12 +74,12 @@
 
 
 					 	<div>
-					 		<label>Username: </label>
+					 		<label>T24 Username: </label>
 					 		<input type="" name="Username" value="INPUTT">
 					 	</div>
 
 					 	<div>
-					 		<label>Password: </label>
+					 		<label>T24 Password: </label>
 					 		<input type="password" name="Password" value="123456">
 					 	</div>
 						
@@ -97,12 +97,12 @@
 					 	</div>
 
 					 	<div>
-					 		<label>Message ID</label> 
+					 		<label>Message ID:</label> 
 					 		<input type="" name="MessageID" placeholder="eg. MSG-2021-08-07">
 					 	</div>
 
 					 	<div>
-					 		<label>Message Data</label>
+					 		<label>Message Data:</label>
 					 		<textarea name="MessageDATA" placeholder="eg. MNEMONIC:1:1=TONY99,SHORT.NAME:1:1=TONY ,SHORT.NAME:2:1=ANTHONY,NAME.1:1:1=Tony Stark"></textarea>
 					 	</div>
 						
@@ -113,7 +113,7 @@
 
 
 		<br>
-		<pre>
+<!-- 		<pre>
 
 		$T24_Application = "CUSTOMER";
 		$T24_VersionName = "";
@@ -129,7 +129,7 @@
 		$T24_MessageID = "";
 		$T24_MessageDATA = "MNEMONIC:1:1=TONY99,SHORT.NAME:1:1=TONY ,SHORT.NAME:2:1=ANTHONY,NAME.1:1:1=Tony Stark,NAME.2:1:1=Tony Stark,STREET:1:1=OXFORD II STREER,STREET:2:1=WALL STREET,ADDRESS:1:1=ADUM NEYORK,ADDRESS:1:2=OFORIKROM,ADDRESS:2:1=BANTAMA ,HIGH STREET ,ADDRESS:3:1=ADUM 3,SECTOR:1:1=1000,ACCOUNT.OFFICER:1:1=1,INDUSTRY:1:1=1007,TARGET:1:1=1,NATIONALITY:1:1=AG,CUSTOMER.STATUS:1:1=1,RESIDENCE:1:1=GH,LANGUAGE:1:1=1,TITLE:1:1=Dr,GIVEN.NAMES:1:1=Tony,FAMILY.NAME:1:1=Stark,GENDER:1:1=MALE";
 
-</pre>
+</pre> -->
 
 </div>
 </body>

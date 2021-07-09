@@ -1,5 +1,5 @@
 <?php 
-
+header("Content-Type:application/json");
 
 // get T24 server IP and port number
 $IP = $_POST["IP_address"];
@@ -155,22 +155,12 @@ for ($i=0; $i < $theFields_count  ; $i++) {
 
 }
 
-// print_r($field_value_pairs);
 
 
-
-echo "this is ADDRESS name ".$field_value_pairs["ADDRESS_1_1"];
-echo "<br>";
-echo "this is EMAIL ADDRESS:".$field_value_pairs["EMPL__EMAIL_1_1"];
-echo "<br>";
-echo $field_value_pairs["NAME__1_1_1"]." is from ".$field_value_pairs["TOWN__COUNTRY_1_1"];
-
-
-echo "<br>";
 
 $T24_response = json_encode($field_value_pairs);
 
-echo $T24_response;
+echo "<pre>".$T24_response."</pre>";
 
 
  ?>

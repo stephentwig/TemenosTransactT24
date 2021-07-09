@@ -5,7 +5,9 @@ This is supposed to expose the data in the Temenos Transact (T24) Core-banking a
 the endpoint is found here : api/v1/getDetails.php
 - This endpoint is for Transactional Request only.
 
-- ![Picture of the front-end ]( https://github.com/stephentwig/TemenosTransactT24/blob/master/img/homeScreenOfs.JPG) 
+ ![Picture of the front-end ]( https://github.com/stephentwig/TemenosTransactT24/blob/master/img/homeScreenOfs.JPG) 
+- JSON formatted response: 
+ ![JSON formatted response] (https://github.com/stephentwig/TemenosTransactT24/blob/master/img/ofsResponse.JPG)
 
 REQUIREMENTS
 * R16 + Model Bank with TAFJServices.war deployed and configured in the TAFJEE_EAR.ear
@@ -16,6 +18,7 @@ Code free routes to go: SOAP - Temenos Web Services (TWS) and REST - Interaction
 
 Improvements to be made:
 * Error handling
+* Authentication / Authorization
 
 The underlying API is Temenos' Open Financial Services (OFS)
 

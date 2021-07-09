@@ -1,5 +1,16 @@
-<div class="container">
-		 <form method="POST" action="api/v1/getDetails.php">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Submit to T24</title>
+<!--  Contains the header CSS -->
+<?php include("includes/headerCSS.php"); ?>
+
+</head>
+
+
+<body>
+	<div class="container">
+		 <form  method="POST" action="api/v1/getDetails.php">
 
 					 	<div>
 					 		<label>T24 Web Server IP: </label>
@@ -113,3 +124,6 @@
 </pre>
 
 </div>
+</body>
+
+</html>

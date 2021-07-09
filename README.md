@@ -3,6 +3,7 @@ Bare Bones Temenos Transact RESTful API
 
 This is supposed to expose the data in the Temenos Transact (T24) Core-banking application in JSON format.
 the endpoint is found here : api/v1/getDetails.php
+- This endpoint is for Transactional Request only.
 
 REQUIREMENTS
 * R16 + Model Bank with TAFJServices.war deployed and configured in the TAFJEE_EAR.ear

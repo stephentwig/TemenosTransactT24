@@ -1,5 +1,8 @@
 <?php 
 header("Content-Type:application/json");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
+
 
 // get T24 server IP and port number
 $IP = $_POST["IP_address"];

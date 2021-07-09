@@ -26,7 +26,25 @@ The underlying API is Temenos' Open Financial Services (OFS)
 ````
 CUSTOMER,/S/PROCESS,INPUTT/123456,190097
 ````
-
+* Using cURL to POST a request, or generate a code snippet of your choice in Postman
+````
+curl --location --request POST 'http://localhost/TemenosTransactT24/api/v1/getDetails.php' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'IP_address=localhost' \
+--data-urlencode 'Port_number=8085' \
+--data-urlencode 'Application=CUSTOMER' \
+--data-urlencode 'Version=' \
+--data-urlencode 'Function=S' \
+--data-urlencode 'ProcessType=PROCESS' \
+--data-urlencode 'GTS_Control=' \
+--data-urlencode 'OFSAction=' \
+--data-urlencode 'Username=INPUTT' \
+--data-urlencode 'Password=123456' \
+--data-urlencode 'CompanyCode=' \
+--data-urlencode 'T24_TransactionID=190097' \
+--data-urlencode 'MessageID=' \
+--data-urlencode 'MessageDATA='
+````
 * Sample OFS response:
 * The response comes with XML tags
 ````

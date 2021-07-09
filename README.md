@@ -7,7 +7,7 @@ the endpoint is found here : api/v1/getDetails.php
 
  ![Picture of the front-end ]( https://github.com/stephentwig/TemenosTransactT24/blob/master/img/homeScreenOfs.JPG) 
 - JSON formatted response: 
- ![JSON formatted response] (https://github.com/stephentwig/TemenosTransactT24/blob/master/img/ofsResponse.JPG)
+ ![JSON formatted response](https://github.com/stephentwig/TemenosTransactT24/blob/master/img/ofsResponse.JPG)
 
 REQUIREMENTS
 * R16 + Model Bank with TAFJServices.war deployed and configured in the TAFJEE_EAR.ear

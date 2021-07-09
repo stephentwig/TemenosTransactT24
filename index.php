@@ -10,6 +10,14 @@
 
 <body>
 	<div class="container">
+		<div class="alert alert-success" role="alert">
+				<h2><b>Homemade Temenos T24 RESTful API</b> 
+
+				<a href="https://github.com/stephentwig" class="btn btn-success btn-md" style="float: right;border:#e8fdff59 1px solid ; margin-right: 30px; ">
+				<span class="glyphicon glyphicon-plus"></span> Mein Geschenk für dich </a>
+				</h2>    
+
+		</div>
 		 <form  method="POST" action="api/v1/getDetails.php">
 
 					 	<div>
@@ -27,37 +35,37 @@
 
 					 	<div>
 					 		<label>Application: </label>
-					 		<input type="" name="Application">
+					 		<input type="" name="Application" placeholder="eg.CUSTOMER , ACCOUNT">
 					 	</div>
 					 	
 					 	<div>
 					 		<label>Version: </label>
-					 		<input type="" name="Version">
+					 		<input type="" name="Version" placeholder="eg. INPUTT">
 					 	</div>
 
 					 	<div>
 					 		<label>Function: </label>
-					 		<input type="" name="Function">
+					 		<input type="" name="Function" placeholder="eg. S,I,A,R,H">
 					 	</div>
 
 					 	<div>
 					 		<label>Process Type: </label>
-					 		<input type="" name="ProcessType" value="PROCESS">
+					 		<input type="" name="ProcessType" value="PROCESS" placeholder="eg. VALIDATE">
 					 	</div>
 						
 					 	<div>
 					 		GTS Control : 
-					 		<input type="" name="T24_TransactionID">
+					 		<input type="" name="GTS_Control" placeholder="eg. 1,2,3,4">
 					 	</div>
 						
 						<div>
 					 		<label>Number of Authorisers: </label>
-					 		<input type="" name="No_of_Auth">
+					 		<input type="" name="No_of_Auth" placeholder="eg. 0,1">
 					 	</div>
 					 	
 					 	<div>
 					 		<label>OFS Action: </label>
-					 		<input type="" name="OFSAction">
+					 		<input type="" name="OFSAction" placeholder="eg. 1 for REPLACEMENT/UPDATE">
 					 	</div>
 						
 
@@ -80,7 +88,7 @@
 
 					 	<div>
 					 		 <label>Company Code: </label> 
-					 		 <input type="" name="CompanyCode">
+					 		 <input type="" name="CompanyCode" placeholder="eg. GB0010001">
 					 	</div>
 
 					 	<div>
@@ -90,15 +98,15 @@
 
 					 	<div>
 					 		<label>Message ID</label> 
-					 		<input type="" name="MessageID">
+					 		<input type="" name="MessageID" placeholder="eg. MSG-2021-08-07">
 					 	</div>
 
 					 	<div>
 					 		<label>Message Data</label>
-					 		<textarea name="MessageDATA"></textarea>
+					 		<textarea name="MessageDATA" placeholder="eg. MNEMONIC:1:1=TONY99,SHORT.NAME:1:1=TONY ,SHORT.NAME:2:1=ANTHONY,NAME.1:1:1=Tony Stark"></textarea>
 					 	</div>
 						
-						<input type="submit" name="submit" value="Submit to Temenos Transact (T24)">
+						<button class="btn btn-primary" name="submit">Submit to Temenos Transact (T24)</button>
 
 		 </form>
 
@@ -119,7 +127,7 @@
 		$T24_CompanyCode = ""; //GH0010001
 		$T24_TransactionID = "190097";
 		$T24_MessageID = "";
-		$T24_MessageDATA = "MNEMONIC:1:1=TONY99,SHORT.NAME:1:1=TONY ,SHORT.NAME:2:1=ANTHONY,NAME.1:1:1=Tony Stark,NAME.2:1:1=Tony Stark,STREET:1:1=OXFORD II STREER,STREET:2:1=WALL STREET,ADDRESS:1:1=ADUM NEYORK,ADDRESS:1:2=DOMEe,ADDRESS:2:1=ADiM 2,ADDRESS:3:1=ADUM 3,SECTOR:1:1=1100,ACCOUNT.OFFICER:1:1=1,INDUSTRY:1:1=1007,TARGET:1:1=1,NATIONALITY:1:1=AG,CUSTOMER.STATUS:1:1=1,RESIDENCE:1:1=GH,LANGUAGE:1:1=1,TITLE:1:1=Alhaji,GIVEN.NAMES:1:1=Tony,FAMILY.NAME:1:1=Stark,GENDER:1:1=MALE";
+		$T24_MessageDATA = "MNEMONIC:1:1=TONY99,SHORT.NAME:1:1=TONY ,SHORT.NAME:2:1=ANTHONY,NAME.1:1:1=Tony Stark,NAME.2:1:1=Tony Stark,STREET:1:1=OXFORD II STREER,STREET:2:1=WALL STREET,ADDRESS:1:1=ADUM NEYORK,ADDRESS:1:2=OFORIKROM,ADDRESS:2:1=BANTAMA ,HIGH STREET ,ADDRESS:3:1=ADUM 3,SECTOR:1:1=1000,ACCOUNT.OFFICER:1:1=1,INDUSTRY:1:1=1007,TARGET:1:1=1,NATIONALITY:1:1=AG,CUSTOMER.STATUS:1:1=1,RESIDENCE:1:1=GH,LANGUAGE:1:1=1,TITLE:1:1=Dr,GIVEN.NAMES:1:1=Tony,FAMILY.NAME:1:1=Stark,GENDER:1:1=MALE";
 
 </pre>
 

@@ -7,7 +7,7 @@ the endpoint is found here : api/v1/getDetails.php
 REQUIREMENTS
 * R16 + Model Bank with TAFJServices.war deployed and configured in the TAFJEE_EAR.ear
 * The T24 endpoint URL:  http://localhost:8085/TAFJServices/services/OFSService/Invoke?Request=CUSTOMER,/S/PROCESS,INPUTT/123456,190097
-* Alternatively, you can use TAFJRestServices.war. To connect check out this link: 
+* Alternatively, you can use TAFJRestServices.war. To connect check out this link: https://github.com/willemgorter/T24TransactTranslation/wiki/02.-Introduction
 
 
 Improvements to be made:

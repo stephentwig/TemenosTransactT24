@@ -1,5 +1,5 @@
 <?php 
-// header("Content-Type:application/json");
+header("Content-Type:application/json");
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
 header("Access-Control-Allow-Methods: GET, POST ,OPTIONS");
@@ -54,20 +54,16 @@ $response = file_get_contents("$T24_OFS_BROWSER_URL");
 // echo "Request: ".$T24_OFS_BROWSER_URL;
 
 
-echo "Response: ".$response;
-
-
 $FormattedResponse = explode("=", $response);
 
 
 //commas in the field values has to be handled eg. ADDRESS:1:1=ACCRA,GHANA,NAME:1:1=MEREDITH
-
+print_r($FormattedResponse);
 
 //to get the number of elements in array
 $arraylength = count($FormattedResponse) ;
 $theFields = array();
 $theValues = array();
-
 
 
 

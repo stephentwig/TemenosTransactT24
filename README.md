@@ -14,7 +14,7 @@ REQUIREMENTS
 * The T24 endpoint URL:  http://localhost:8085/TAFJServices/services/OFSService/Invoke?Request=CUSTOMER,/S/PROCESS,INPUTT/123456,190097
 * Alternatively, you can use TAFJRestServices.war. To connect check out this link: https://github.com/willemgorter/T24TransactTranslation/wiki/02.-Introduction
 
-Code free routes to go: SOAP - Temenos Web Services (TWS) and REST - Interaction Framework 
+Code free routes to go: SOAP - Temenos Web Services (TWS) and REST - (IRIS) - Information, Reporting and Information service - Interaction Framework 
 
 Improvements to be made:
 * Error handling
